@@ -6,7 +6,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
   print("starting as {0.user}".format(client))
-  await message.channel.send("dramatic entry")
+  # await message.channel.send("dramatic entry")
 
 @client.event
 async def on_message(message):
